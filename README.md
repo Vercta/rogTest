@@ -1,48 +1,53 @@
+[简体中文](README_zh-CN.md) | **English**
 <h1 align="center">rogTest</h1>
-> rogTest 用户文档 Ver. 0.1
 
-你来到了“rogTest”的发布页面：**rogTest** 旨在实现[Unity中文课堂《王国之梦》教程](https://learn.u3d.cn/tutorial/CardCourse-DOTK)中的所有功能，最终用于提交 “作业一” 的工程任务(8.23)
+> rogTest User Documentation Ver. 0.1
 
-## 关于本项目
-这是一款基于 Unity 2D 开发的Roguelike卡牌游戏，目前内容并未实现完整。
+Welcome to the release page of **rogTest**: This project aims to implement all functionalities of the [Unity Chinese Classroom "Kingdom of Dreams" tutorial](https://learn.u3d.cn/tutorial/CardCourse-DOTK) and is intended for submission of the "Assignment One" engineering task (8.23).
 
-> 目前由于网络原因，源代码放置于[暂存服务](https://musetransfer.com/s/taylum7n9)｜ 密码：0029请点击链接获取《作业一》, 有效期至8月27日】
+## About This Project
+This is a Roguelike card game developed based on Unity 2D, and its content is not yet fully implemented.
 
-### 构建工具
-- Unity 6000 Preview
-- VScode2022 with Extensions:C# Dev Kit, Unity
+> Due to network issues, the source code is temporarily hosted [here]().
 
-## 功能开发进度
-- 框架
-  - [x] 基本准备工作
-  - [ ] 风格统一的素材切割导入与基本地图绘制
-  - [ ] 房间系统
-  - [ ] 随机地图
-  - [ ] 音效管理系统
-  - [ ] 关卡切换与管理
-  - [ ] 基础风格化画面处理 
-- 控制
-  - [ ] 键鼠
-  - [ ] Xbox手柄
-  - [ ] PS手柄
-- 游戏性
-  - [ ] 卡牌的基本生命周期
-  - [ ] 人物基类
-  - [ ] 基本的卡牌逻辑实现
-  - [ ] 回合转换逻辑
-  - [ ] 人物的动画
-  - [ ] 抽卡系统
-  - [ ] 对战胜负逻辑
-  - [ ] 敌人的基本逻辑
-  - [ ] Boss逻辑
-  - [ ] 休息房间
-- 交互性
-  - [ ] 存档
-  - [ ] 激活验证
-  - [ ] 设置
+### Build Tools
+- Unity Preview 6000.0.10f1c1
+- VScode2022 with Extensions: C# Dev Kit, Unity
 
-## Interacts
-若您有任何建议，请fork本项目并创建pull request, 或是直接开启一个 issue （推荐）
+## Development Progress
+- Framework
+  - [x] Basic setup
+  - [x] Consistent asset slicing and basic map drawing
+  - [x] Random map generation
+  - Room System
+    - [x] Combat rooms
+    - [x] Rest rooms
+    - [x] Treasure rooms
+    - [x] Rest rooms
+  - [ ] Audio management system
+  - [x] Level switching and management
+  - [x] UI system (using UI Toolkit)
+- Controls
+  - [x] Keyboard and mouse
+  - [ ] ~~Xbox controller~~
+  - [ ] ~~PS controller~~
+- Gameplay
+  - [x] Basic lifecycle of cards
+  - [x] Character base class
+  - [x] Basic card logic implementation
+  - [x] Turn transition logic
+  - [x] Character animations
+  - [x] Card drawing system
+  - [x] Win/loss logic for combat
+  - [x] Basic enemy logic
+  - [x] Boss logic
+- Interactivity
+  - [x] Save functionality
+  - [ ] Activation verification
+  - [ ] Settings
 
-## 致谢
-感谢所有点击进入浏览本项目；提出过宝贵意见的你们。
+## Interactions
+If you have any suggestions, please fork this project and create a pull request, or simply open an issue (recommended).
+
+## Acknowledgements
+Thank you to everyone who has clicked to view this project and those who have provided valuable feedback.
